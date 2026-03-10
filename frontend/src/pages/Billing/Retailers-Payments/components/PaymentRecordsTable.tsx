@@ -23,7 +23,6 @@ const mockData = [
 ];
 
 export function PaymentRecordsTable() {
-    const [activeTab, setActiveTab] = useState<"orders" | "returns">("orders")
     const [searchQuery, setSearchQuery] = useState("")
     const [selectedPayment, setSelectedPayment] = useState<any | null>(null)
     const [isModalOpen, setIsModalOpen] = useState(false)

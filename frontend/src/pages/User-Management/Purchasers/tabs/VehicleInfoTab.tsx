@@ -10,7 +10,7 @@ interface VehicleInfoTabProps {
     id?: string;
 }
 
-const VehicleInfoTab: React.FC<VehicleInfoTabProps> = ({ id }) => {
+const VehicleInfoTab: React.FC<VehicleInfoTabProps> = (_props) => {
     const documents = [
         { name: "License.pdf", size: "245 KB" },
         { name: "Insurance.pdf", size: "245 KB" },

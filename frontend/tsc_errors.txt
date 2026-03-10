@@ -1,0 +1,7 @@
+﻿src/pages/Billing/Retailers-Payments/components/PaymentRecordsTable.tsx(26,12): error TS6133: 'activeTab' is declared but its value is never read.
+src/pages/Billing/Retailers-Payments/components/PaymentRecordsTable.tsx(26,23): error TS6133: 'setActiveTab' is declared but its value is never read.
+src/pages/Billing/Retailers-Payments/index.tsx(2,1): error TS6133: 'StatsCard' is declared but its value is never read.
+src/pages/Orders/WholesaleOrders/ViewOrder.tsx(17,11): error TS6133: 'navigate' is declared but its value is never read.
+src/pages/Product-Management/Brand/AddBrandModal.tsx(13,1): error TS6133: 'cn' is declared but its value is never read.
+src/pages/User-Management/Purchasers/tabs/PerformanceTab.tsx(20,56): error TS6133: 'id' is declared but its value is never read.
+src/pages/User-Management/Purchasers/tabs/VehicleInfoTab.tsx(13,56): error TS6133: 'id' is declared but its value is never read.

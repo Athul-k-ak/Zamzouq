@@ -17,7 +17,7 @@ interface PerformanceTabProps {
     id?: string;
 }
 
-const PerformanceTab: React.FC<PerformanceTabProps> = ({ id }) => {
+const PerformanceTab: React.FC<PerformanceTabProps> = (_props) => {
     const [activeRecordTab, setActiveRecordTab] = useState("Orders");
 
     const stats = [
